@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(45deg, rgb(97, 4, 4), rgb(135, 9, 9));  /* Define background image */
+    background-size: cover;
+    color: white;
+    transition: background-image 2s ease-in-out;  /* Apply transition to background-image */
+}
+
+left-section {
+    text-align: left;
+    width: 50%;
+}
+
+right-section {
+    text-align: left;
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.setting-item {
+    margin-bottom: 20px; /* Add space between each setting */
+    text-align: left; /* Ensure labels are aligned to the left */
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    margin-top: 5px; /* Add a small margin at the top of the input field */
+}
+
+.timer {
+    margin-top: 20px;
+    
+    border: none;
+    border-radius: 5px;
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+    max-width: 500px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #d43f2a;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
